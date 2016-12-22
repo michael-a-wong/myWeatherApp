@@ -7,3 +7,6 @@ This was my first using a API and working with JSON. The weather app was made fr
 The default location for the weather app is Davis, California. 
 
 You can change the location by typing in the Zip code (or name) in the text back and then CLICKING the Go button. 
+
+You can view the website here: 
+http://michael-a-wong.github.io/michael-a-wong.github.io/weatherApp/weatherWong.html
