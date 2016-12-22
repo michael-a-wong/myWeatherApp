@@ -1,0 +1,223 @@
+@font-face {
+    font-family: montserrat-bold;
+    src: url(Montserrat-Bold.otf);
+}
+@font-face {
+    font-family: montserrat-extraBold;
+    src: url(Montserrat-ExtraBold.otf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(Montserrat-Regular.otf);
+}
+
+@media screen and (min-width:830px) {
+	div#today {vertical-align: top; 
+background-color: rgb(162, 193, 245); 
+width: 60%; 
+height: 100%;
+display: inline-block;
+/* position: fixed; */
+margin: 0px;
+padding: 0px;}
+
+div#week {background-color: rgb(145, 180, 242);
+width: 40%; 
+margin: 0;
+padding: 0; 
+display: inline-block;
+vertical-align: top; 
+/* position: fixed; */
+/*right: 0em;*/ 
+/* height: 100%;  */
+float: right;}
+  
+}
+@media screen and (max-width:729px) {
+  div#week {background-color: rgb(145, 180, 242);
+width: 100%; 
+	  margin: 0px;
+padding: 0px; 
+}
+}
+
+body {background-color: rgb(162, 193, 245); 
+height: 100%;
+/* font-family: "Arial black", Verdana, Geneva, sans-serif; */
+font-family: montserrat-regular;
+margin: 0px;
+	padding: 0px; 
+}
+
+.header {height: 45px;
+padding-top: 20px;
+background-color: rgb(237, 239, 239);}
+
+.zip {
+	font-family: monterrat-regular; 
+
+}
+
+h3 {
+	color: rgb(76, 97, 132);
+	margin: 2%;
+	margin-left: 6%; 
+	display: inline; 
+	
+}
+
+input, select, textarea{
+
+	font-family: montserrat-regular; 
+	color: rgb(76, 97, 132);
+}
+
+#button {
+	font-family: montserrat-regular; 
+
+
+}
+
+div#main {color: white;
+max-height: 600px;
+float: bottom; 
+/* min-height: 1000px;  */
+min-width: 570px;}
+
+
+
+
+
+
+div#titleDiv{
+	margin: 2%; 
+	margin-left: 10%; 
+	font-size: 40px; 
+	font-family: montserrat-bold; 
+}
+div#leftDiv {/* background-color: blue; */
+width: 55%;
+display: inline-block; 
+height: 100%;}
+
+div#rightDiv {/* background-color: rgb(62, 155, 255); */
+display: inline;
+float: right;
+width: 45%;
+height: 100%;
+text-align: middle; 
+}
+
+div#rightText {
+	margin-top: 10%; 
+	height: 33%; 
+
+}
+
+
+
+img {
+	padding: 20%; 
+	padding-top: 10%; 
+	width: 60%; 
+
+}
+
+.weekDayPicDiv {width: 25%; 
+height: 80%; 
+/* background-color: blue; */
+margin-left: 10%;
+margin-right: 10%; 
+margin-top: 10px; 
+margin-bottom: 10px; 
+display: inline-block;}
+
+.weekDayPic {
+	height: 100%; 
+	width: 100%; 
+	padding: 0px; 
+	margin: 0px; 
+  
+}
+
+.mainTemp {
+	font-family: montserrat-extraBold; 
+	font-size: 50px; 
+	height: 50px;  
+}
+
+.day {height: 17.5vh;
+padding: 0px; 
+margin: 0px; 
+/* max-width: 520px; */}
+
+.title {
+	padding-top: 10px; 
+	padding-left: 15px; 
+	height: 5%; 
+}
+
+.yahoo {
+	margin: 0; 
+	padding: 0; 
+	float: right; 
+	font-size: 20px; 
+	height: 29px;
+	width: 134px
+}
+
+.weekDay {margin: 0px; 
+padding: 0; 
+padding-left: 15px; 
+display: inline-block;
+/* background-color: blue;  */
+width: 23%; 
+/* vertical-align: middle; */
+/* height: 100%; */}
+
+.weekDayTemp {margin: 0px; 
+padding: 0; 
+/* padding-left: 15px;  */
+display: inline-block;
+/* background-color: blue;  */
+width: 23%; 
+/* vertical-align: middle; */
+/* height: 100%; */
+font-family: montserrat-extraBold;
+font-size: 30px;}
+
+.textDay {
+	font-family: montserrat-bold; 
+	font-size: 2vw; 
+	height: 25px; 
+}
+
+
+.textDate {
+	height: 50%;
+	vertical-align: top; 
+}
+
+
+
+
+
+
+
+
+div#day1 {
+  	background-color: #AAC7F5;
+}
+div#day2 {
+  	background-color: #B2CCf6;
+}
+div#day3 {
+  	background-color: #BAD2F7;
+}
+div#day4 {
+  	background-color: #C3D7F8;
+}
+
+div#day5 {
+  	background-color: #CDDDF9;
+}

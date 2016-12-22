@@ -1,0 +1,25 @@
+Michael Wong, 999797107
+
+I choose to make Tiffany Choi's Design
+
+** I added a mobile design ** 
+
+For the structure of the webpage, I started my dividing the design into 3 sections: the Title, the left div, and the right div. The left focused on today's information, and the right had the week's information. 
+
+The week's information is divided into 5 divs each containing information for each of the future days. 
+
+In each of the days, I had 3 inline blocks to store the day, image, and temperture. 
+
+I mostly followed the design Tiffany provided, and only made minor changes. For example the font size differs slightly from her design.
+
+For the software design I followed the MCV model. I made a file for each of the model, view, and controlled. In the model, I only had two properties for each of the data that you get back for the woeid api and the Yahoo api. 
+
+The control was the different "call back functions" and button function. 
+
+In the View, I appended divs. I could have made the divs in the html, but I thought we had to follow the design of the Quiz. If I had to do it again I would make the structure in the html. I passed in the data from the model through parameters in the view functions.  
+
+I include a library to get rid of the broswers custom designs; this is the suggestion from Friday. I did this to help make the css better. 
+
+
+
+ 

@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html> 
+<head> 
+<meta charset="UTF-8">
+<title>Weather</title> 
+<link rel="stylesheet" type="text/css" href="weatherWong.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<link rel="stylesheet" type="text/css" href="default.css">
+</head>
+
+<body> 
+
+	<div class="header"> 
+<h3>How's the weather?</h3> <input type="text" id="zip" placeholder="Enter Zip Code..." font-family="montserrat-regular"> <button onclick='lookupWoeid()' font-family="montserrat-regular">GO</button>  <img src="https://poweredby.yahoo.com/purple.png" width="134" height="29" class="yahoo"/> </a>
+	</div> 
+<div id="main">
+  <div id="today">
+	  
+  </div> 
+
+  <div id="week">
+    <div class="title">Next 5 days:</div> 
+    <div class="day" id ="day1"></div>
+    <div class="day" id ="day2"></div>
+    <div class="day" id ="day3"></div>
+    <div class="day" id ="day4"></div>
+    <div class="day" id ="day5"></div>
+	
+  </div> 
+</div> 
+
+
+
+<script src="weatherWongView.js"></script>
+<script src="weatherWongModel.js"></script>
+	<script src="weatherWongControl.js"></script>
+<script src="https://query.yahooapis.com/v1/public/yql?q=select woeid,name,admin1,country  from   geo.places where text='davis' & format=json & callback=placeCallback"> </script>
+</script>
+</body> 
+</html>
